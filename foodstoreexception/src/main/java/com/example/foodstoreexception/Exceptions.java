@@ -65,5 +65,9 @@ public class Exceptions extends Throwable {
 
     }
 
+    public static void stinException(String errorALanzar) throws Exceptions {
+        throw new Exceptions(errorALanzar);
+    }
+
 
 }
