@@ -33,7 +33,7 @@ public class OpenConnection {
     }
 
     //Insert data in DJANGO REST.FRAMEWORK       POST
-    String insertarDatos(String json) throws IOException {
+    public String insertarDatos(String json) throws IOException {
         RequestBody body = RequestBody.create(JSON, json);
         Request request = new Request.Builder()
                 .url(this.url)
@@ -44,7 +44,7 @@ public class OpenConnection {
     }
 
     //Obtain data in DJANGO REST.FRAMEWORK        GET
-    String obtenerDatos() throws IOException {
+    public String obtenerDatos() throws IOException {
         Request request = new Request.Builder()
                 .url(this.url)
                 .build();
