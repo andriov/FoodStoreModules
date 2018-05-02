@@ -22,6 +22,7 @@ public class Exceptions extends Throwable {
         super(arg0);
     }
 
+    //Exception to analize not only double numbers and string smaller than determined size(max)
     public void stinException(String nameField, Editable stringAnalize, int max) throws Exceptions {
         if(stringAnalize.toString().isEmpty()){
             throw new Exceptions("You need to insert the "+nameField);
@@ -39,6 +40,7 @@ public class Exceptions extends Throwable {
         }
     }
 
+    //Analize integer or float number according with the name field
     public static void stinException(String nameField,Editable number) throws Exceptions {
         if(nameField.equals("stock") && number.toString().isEmpty()){
             numberObtained=0;
