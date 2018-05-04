@@ -14,11 +14,11 @@ The programm guideline for introduce code is the follow:
 
 # MODULE FOODSTOREWEBSERVICECONNECTION
 
-*INSERT THE DJANGO URL
+INSERT THE DJANGO URL
 
 * In order to insert the django URL is possible use the method "setUrl" of the class OpenConnection
 
-*USING THE CLASS "OpenConnection"
+USING THE CLASS "OpenConnection"
 
 Use the class open connection implies the use the next methods: 
 
@@ -28,11 +28,11 @@ Use the class open connection implies the use the next methods:
  
 # MODULE FOODSTOREEXCEPTION
 
-*INSERT THE DJANGO URL
+INSERT THE DJANGO URL
 
 * In order to insert the django URL is possible use the method "setUrl" of the class Exceptions
 
-*USING THE CLASS "Exceptions"
+USING THE CLASS "Exceptions"
 
 Use the class open connection implies the use of the next methods: 
 
