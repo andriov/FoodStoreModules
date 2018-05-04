@@ -18,7 +18,7 @@ The programm guideline for introduce code is the follow:
 
 # USING THE CLASS OpenConnection
 
-Use the class open connection that has the method of 
+Use the class open connection to imply that has the method of 
 
 * "insertData()" that allow do a post into Django view through a json format.
 * "obteinData()" that allow get data with json format.
