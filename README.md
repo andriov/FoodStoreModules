@@ -1,4 +1,4 @@
-#FOODSTORE MODULES
+# FOODSTORE MODULES
 
 In order to uses this modules create the respective release and use it with JitPAck in the web page https://jitpack.io/
 
@@ -12,11 +12,11 @@ The programm guideline for introduce code is the follow:
 
 * If the function name consist on two words only the first start with lower case. Example: class salesList().
 
-#INSERT THE DJANGO URL
+# INSERT THE DJANGO URL
 
 * In order to insert the django URL is possible use the method "setUrl" of the class OpenConnection
 
-#USING THE CLASS OpenConnection
+# USING THE CLASS OpenConnection
 
 Use the class open connection that has the method of 
 
